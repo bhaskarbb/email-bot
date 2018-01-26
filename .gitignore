@@ -1,0 +1,7 @@
+.idea
+*.log
+*.pot
+*.pyc
+__pycache__
+.coverage
+db.sqlite3
