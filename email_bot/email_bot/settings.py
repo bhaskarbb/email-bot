@@ -25,7 +25,7 @@ SECRET_KEY = '8x@y37$0^ir)r!moffl7d(g_o%530o-fkijs%lo8w!e@)p7sa8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,7 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'meeting.apps.MeetingConfig'
+    'meeting.apps.MeetingConfig',
+    'user.apps.UserConfig',
+    'fulfillment.apps.FulfillmentConfig',
+    'mail.apps.MailConfig',
+
+    'rest_framework'
+
 ]
 
 MIDDLEWARE = [
@@ -83,6 +89,15 @@ DATABASES = {
 }
 
 
+EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST ='smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'xbox2752@gmail.com'
+EMAIL_HOST_PASSWORD = 'Qpalzm1234'
+
+
+
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
 
@@ -107,7 +122,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -115,8 +130,9 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
