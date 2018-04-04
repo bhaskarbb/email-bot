@@ -31,6 +31,6 @@ python manage.py runserver
 
 ### Built With
 
-1. Django 
-1. Django-rest-framework
+1. Django (Django-rest-framework)
+1. ReactJS 
 1. DialogFlow
