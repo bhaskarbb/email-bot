@@ -14,6 +14,10 @@ The user's schedule is created and displayed through an iteractive dashboard. An
 
 ![Architecture](architecture.PNG)
 
+### Screenshot
+
+![Screenshot](screenshot.PNG)
+
 ### Prerequisites
 Python 3
 
