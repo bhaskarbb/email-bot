@@ -5,6 +5,11 @@ An email bot that automatically schedules meetings based on emails received and 
 
 Note: Need to install and run the front-end code seperately. Details in the provided URL
 
+### Description
+A bot that is connected to your gmail account. It reads all the incoming emails and if the email is related to meetings, it will try to have an email conversation with the client to set up a meeting. 
+
+The user's schedule is created and displayed through an iteractive dashboard. Any changes can be made to this schedule using the GUI and extra chat bot has been created to fullfil the same purpose.
+
 ### Prerequisites
 Python 3
 
