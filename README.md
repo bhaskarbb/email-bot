@@ -5,9 +5,6 @@ An email bot that automatically schedules meetings based on emails received and 
 
 Note: Need to install and run the front-end code seperately. Details in the provided URL
 
-### Description
-
-
 ### Prerequisites
 Python 3
 
