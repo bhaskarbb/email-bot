@@ -8,7 +8,9 @@ Python 3
 ### Installation
 
 git clone https://github.com/bhaskar337/email-bot.git
+
 cd email-bot/email-bot
+
 pip install -r requirements.text
 
 ### To Run
