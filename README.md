@@ -8,7 +8,11 @@ Note: Need to install and run the front-end code seperately. Details in the prov
 ### Description
 A bot that is connected to your gmail account. It reads all the incoming emails and if the email is related to meetings, it will try to have an email conversation with the client to set up a meeting. 
 
-The user's schedule is created and displayed through an iteractive dashboard. Any changes can be made to this schedule using the GUI and extra chat bot has been created to fullfil the same purpose.
+The user's schedule is created and displayed through an iteractive dashboard. Any changes can be made to this schedule using the GUI. An editional chat bot has been created to fullfil the same purpose.
+
+### System Architecture
+
+![Architecture](achitecture.png)
 
 ### Prerequisites
 Python 3
